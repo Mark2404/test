@@ -1,6 +1,8 @@
 import telebot 
 import requests
 from telebot import types
+def hello():
+    pass
 @bot.message_handler(commands=['start'])
 def start(message):
     user_info = get_info(message)
