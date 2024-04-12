@@ -3,6 +3,8 @@ import requests
 from telebot import types
 def hello():
     pass
+def javohirfunk():
+    pass
 @bot.message_handler(commands=['start'])
 def start(message):
     user_info = get_info(message)
@@ -34,4 +36,3 @@ conn.commit()
 cur.close()
 conn.close()
 bot.polling(none_stop=True)
-
